@@ -30,7 +30,6 @@ struct room {
 void findDirectory(char *directoryName, DIR *dir, struct dirent *dp) {
   char* tempString;
   char* directoryPrefix = "dir.rooms";
-
   dir = opendir("."); // open the current directory
 
   // loop until no more lines to read
